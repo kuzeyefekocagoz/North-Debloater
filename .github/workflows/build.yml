@@ -1,0 +1,19 @@
+name: Build Windows portable
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Build
+        shell: cmd
+        run: BUILD_WINDOWS.bat < nul
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NorthDebloater-Windows-Portable
+          path: NorthDebloater-Windows-Portable.zip

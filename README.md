@@ -13,6 +13,12 @@ Windows'un yoksa projeyi GitHub'a yükle: *Actions > Build Windows portable > Ru
 - **Devre dışı bırak** (silmeden, geri alınabilir) veya **Kaldır** (`pm uninstall --user 0`); **Geri al** düğmesi her ikisini de geri çevirir
 - **Yedek dosyası (JSON):** kaldırılan ve devre dışı paketleri kaydeder; başka telefonda uygulayabilir ya da geri alabilirsin
 - **Boyut sütunu** (uygulama + veri, sıralanabilir) ve **ayrıntı penceresi** (çift tık): sürüm, kurulum tarihi, kuran, APK yolu, verilmiş/verilmemiş izinler, hassas izinler vurgulu
+- **Otomatik yedek:** Her *Kaldır* / *Devre dışı bırak* işleminden hemen önce `%LOCALAPPDATA%\NorthDebloater\otomatik_yedekler` klasörüne yedek yazılır (son 30 saklanır; yedek alınamazsa işlem yapılmaz). *Araçlar > Son otomatik yedekten geri al* o işlemi tek adımda geri çevirir
+- **Çoklu cihaz:** Üstteki cihaz listesinden bağlı telefonlar arasında geçiş yapılır
+- **Kablosuz ADB:** *Araçlar > Kablosuz ADB (Wi-Fi)*: Android 11+ için eşleştirme kodu ile eşleştir/bağlan; Android 10 ve altı için USB bağlıyken "USB'den Wi-Fi'ye geç"
+- **Filtreler:** Durum, risk ve liste/marka (bilinenler, bilinmeyenler, Samsung, Xiaomi, Oppo, Google, üçüncü taraf) süzgeçleri; "Görünenlerin hepsini seç" ve seçili sayısı
+- **İlerleme:** Toplu işlemde paket paket ilerleme çubuğu ve durum satırı; sonuç penceresinde ayrıntılar katlanabilir
+- **Türkçe / İngilizce:** *Araçlar > Dil / Language*; seçim `%LOCALAPPDATA%\NorthDebloater\settings.json` içinde saklanır. Veritabanındaki 84 paketin İngilizce açıklamaları da var
 - Kaldırılmış paketler görünümü, ADB yoksa uygulama içinden indirme, CSV dışa aktarma, işlem günlüğü (`%LOCALAPPDATA%\NorthDebloater\islem_gunlugu.txt`)
 
 ## Android bağlantısı

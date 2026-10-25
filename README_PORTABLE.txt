@@ -15,6 +15,11 @@ OZELLIKLER
 - Araclar menusu: Marka profili uygula, Yedek kaydet, Yedekten uygula/geri al,
   Ayrintilar ve izinler (satira cift tikla), CSV disa aktar, Topluluk listesini guncelle
 - Boyut sutunu: uygulama + veri boyutu (basliga tiklayarak sirala)
+- Otomatik yedek: Kaldir/Devre disi islemlerinden once %LOCALAPPDATA%\NorthDebloater\otomatik_yedekler
+  klasorune yazilir. Araclar > "Son otomatik yedekten geri al" islemi geri cevirir.
+- Cok cihaz: ustteki listeden telefon sec. Filtreler: durum / risk / marka. "Gorunenlerin hepsini sec".
+- Kablosuz ADB: Araclar > Kablosuz ADB (Wi-Fi). Android 11+: eslestirme kodu. Android 10-: USB'den Wi-Fi'ye gec.
+- Dil: Araclar > Dil / Language (Turkce / English).
 
 ONERI
 Once "Devre disi birak" yontemini dene; sorun cikarsa "Geri al" ile eski haline getir.

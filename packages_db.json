@@ -1,509 +1,625 @@
 {
- "version": 1,
+ "version": 2,
  "packages": {
   "com.samsung.android.bixby.agent": {
    "name": "Bixby Voice",
    "desc": "Bixby sesli asistanı.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Bixby voice assistant."
   },
   "com.samsung.android.bixby.wakeup": {
    "name": "Bixby Wake-up",
    "desc": "\"Hi Bixby\" uyandırma komutu.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "\"Hi Bixby\" wake-up command."
   },
   "com.samsung.android.app.spage": {
    "name": "Samsung Free / Bixby Home",
    "desc": "Ana ekranın solundaki haber ve içerik sayfası.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "News and content page to the left of the home screen."
   },
   "com.samsung.android.visionintelligence": {
    "name": "Bixby Vision",
    "desc": "Kamerayla nesne tanıma ve çeviri özelliği.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Object recognition and translation using the camera."
   },
   "com.samsung.android.app.tips": {
    "name": "Samsung İpuçları",
    "desc": "Cihaz kullanım ipuçları uygulaması.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Device usage tips app.",
+   "name_en": "Samsung Tips"
   },
   "com.samsung.android.arzone": {
    "name": "AR Zone",
    "desc": "Artırılmış gerçeklik araçlarının toplandığı uygulama.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "App that collects augmented reality tools."
   },
   "com.samsung.android.aremoji": {
    "name": "AR Emoji",
    "desc": "Yüzünden animasyonlu emoji üretir.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Creates animated emoji from your face."
   },
   "com.samsung.android.ardrawing": {
    "name": "AR Doodle",
    "desc": "Kamerada yüzün ve ortamın üzerine çizim yapar (AR Zone içinden).",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Draw over your face and surroundings in the camera (from AR Zone)."
   },
   "com.samsung.android.stickercenter": {
    "name": "Çıkartma Merkezi",
    "desc": "Emoji ve çıkartma paketlerini indirme mağazası.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Store for downloading emoji and sticker packs.",
+   "name_en": "Sticker Center"
   },
   "com.samsung.android.service.livedrawing": {
    "name": "Live Message",
    "desc": "Animasyonlu GIF/emoji çizme özelliği.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Animated GIF/emoji drawing feature."
   },
   "com.samsung.android.game.gamehome": {
    "name": "Game Launcher",
    "desc": "Oyunları toplayan başlatıcı.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Launcher that collects your games."
   },
   "com.samsung.android.game.gametools": {
    "name": "Game Tools",
    "desc": "Oyun içi araç çubuğu (kayıt, bildirim engelleme).",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "In-game toolbar (recording, notification blocking)."
   },
   "com.samsung.android.kidsinstaller": {
    "name": "Kids Installer",
    "desc": "Samsung Kids kurulum aracı.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Samsung Kids setup tool."
   },
   "com.samsung.android.app.watchmanagerstub": {
    "name": "Galaxy Watch Manager Stub",
    "desc": "Galaxy Watch yöneticisinin kurulum kabuğu.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Install stub of the Galaxy Watch manager."
   },
   "com.samsung.android.mateagent": {
    "name": "Galaxy Friends",
    "desc": "Samsung aksesuar platformu servisi.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Samsung accessory platform service."
   },
   "com.samsung.android.app.sharelive": {
    "name": "Quick Share",
    "desc": "Samsung dosya paylaşım uygulaması.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Samsung file sharing app."
   },
   "com.samsung.android.smartswitchassistant": {
    "name": "Smart Switch Assistant",
    "desc": "Eski telefondan veri aktarımına yardımcı olur.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Helps with data transfer from an old phone."
   },
   "com.sec.android.easyMover.Agent": {
    "name": "Smart Switch Agent",
    "desc": "Smart Switch ile veri aktarımı için gerekir.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Required for data transfer with Smart Switch."
   },
   "com.samsung.android.samsungpass": {
    "name": "Samsung Pass",
    "desc": "Parola/biyometrik giriş yöneticisi. Kullanıyorsan kaldırma.",
    "risk": "caution",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Password/biometric sign-in manager. Do not remove if you use it."
   },
   "com.samsung.android.email.provider": {
    "name": "Samsung E-posta",
    "desc": "Samsung e-posta uygulaması.",
    "risk": "safe",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Samsung email app.",
+   "name_en": "Samsung Email"
   },
   "com.sec.android.app.sbrowser": {
    "name": "Samsung Internet",
    "desc": "Samsung tarayıcısı. Başka tarayıcın yoksa kaldırma.",
    "risk": "caution",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Samsung browser. Do not remove if you have no other browser."
   },
   "com.samsung.android.themestore": {
    "name": "Galaxy Themes",
    "desc": "Tema mağazası; tema/duvar kâğıdı ayarlarını etkileyebilir.",
    "risk": "caution",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Theme store; may affect theme/wallpaper settings."
   },
   "com.samsung.android.app.dressroom": {
    "name": "Dressroom",
    "desc": "Duvar kâğıdı/tema ile ilgili Samsung bileşeni.",
    "risk": "caution",
-   "brand": "samsung"
+   "brand": "samsung",
+   "desc_en": "Samsung component related to wallpapers/themes."
   },
   "com.miui.analytics": {
    "name": "Xiaomi Analytics",
    "desc": "Kullanım verisi toplayan telemetri servisi.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Telemetry service that collects usage data."
   },
   "com.miui.msa.global": {
    "name": "MSA (Main System Ads)",
    "desc": "Hedefli reklam için davranış analizi yapan sistem reklam servisi.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "System ad service that analyzes behavior for targeted ads."
   },
   "com.miui.systemAdSolution": {
    "name": "System Ad Solution",
    "desc": "Hedefli reklamlar için kullanıcı davranışı analizi.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Analyzes user behavior for targeted ads."
   },
   "com.miui.hybrid": {
    "name": "Quick Apps",
    "desc": "Hızlı uygulamalar; reklam ve izleme içerir.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Quick apps; contains ads and tracking."
   },
   "com.miui.hybrid.accessory": {
    "name": "Quick Apps Aksesuar",
    "desc": "Quick Apps için aksesuar desteği.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Accessory support for Quick Apps.",
+   "name_en": "Quick Apps Accessory"
   },
   "com.xiaomi.mipicks": {
    "name": "GetApps (Mi Picks)",
    "desc": "Xiaomi uygulama mağazası.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi app store."
   },
   "com.miui.bugreport": {
    "name": "Mi Geri Bildirim",
    "desc": "Geliştiriciye hata raporu gönderir.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Sends bug reports to the developer.",
+   "name_en": "Mi Feedback"
   },
   "com.miui.miservice": {
    "name": "Hizmetler ve Geri Bildirim",
    "desc": "Xiaomi’ye geri bildirim ve veri gönderen servis.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Service that sends feedback and data to Xiaomi.",
+   "name_en": "Services & Feedback"
   },
   "com.miui.yellowpage": {
    "name": "Sarı Sayfalar",
    "desc": "Firma ve hizmet numaraları rehberi.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Directory of business and service numbers.",
+   "name_en": "Yellow Pages"
   },
   "com.miui.android.fashiongallery": {
    "name": "Duvar Kâğıdı Carousel",
    "desc": "Kilit ekranında dönen duvar kâğıtları (reklam içerebilir).",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Rotating lock screen wallpapers (may contain ads).",
+   "name_en": "Wallpaper Carousel"
   },
   "com.xiaomi.glgm": {
    "name": "Xiaomi Oyunlar",
    "desc": "Xiaomi oyun merkezi.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi game hub.",
+   "name_en": "Xiaomi Games"
   },
   "com.miui.video": {
    "name": "Mi Video",
    "desc": "Xiaomi video oynatıcı.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi video player."
   },
   "com.miui.videoplayer": {
    "name": "Mi Video Oynatıcı",
    "desc": "Xiaomi video oynatıcı (eski paket adı).",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi video player (old package name).",
+   "name_en": "Mi Video Player"
   },
   "com.miui.player": {
    "name": "Mi Müzik",
    "desc": "Xiaomi müzik çalar.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi music player.",
+   "name_en": "Mi Music"
   },
   "com.mi.globalbrowser": {
    "name": "Mi Tarayıcı",
    "desc": "Xiaomi tarayıcısı. Başka tarayıcın yoksa kaldırma.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi browser. Do not remove if you have no other browser.",
+   "name_en": "Mi Browser"
   },
   "com.miui.cloudservice": {
    "name": "Mi Cloud Servisi",
    "desc": "Xiaomi Cloud senkronizasyonu için gerekir; kullanıyorsan kaldırma.",
    "risk": "caution",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Required for Xiaomi Cloud sync; do not remove if you use it."
   },
   "com.miui.cleaner": {
    "name": "Mi Temizleyici",
    "desc": "Temizleyici uygulaması (üçüncü taraf kökenli, reklam geçmişi var).",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Cleaner app (third-party origin, history of ads).",
+   "name_en": "Mi Cleaner"
   },
   "com.xiaomi.discover": {
    "name": "Xiaomi Güncelleyici",
    "desc": "Sistem uygulaması güncellemeleri; kaldırmak önerilmez.",
    "risk": "caution",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "System app updates; removal not recommended.",
+   "name_en": "Xiaomi Updater"
   },
   "com.xiaomi.gamecenter.sdk.service": {
    "name": "Oyun Servisi",
    "desc": "Xiaomi oyun SDK servisi.",
    "risk": "safe",
-   "brand": "xiaomi"
+   "brand": "xiaomi",
+   "desc_en": "Xiaomi game SDK service.",
+   "name_en": "Game Service"
   },
   "com.heytap.music": {
    "name": "HeyTap Müzik",
    "desc": "Oppo/Realme müzik çalar.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo/Realme music player.",
+   "name_en": "HeyTap Music"
   },
   "com.oppo.music": {
    "name": "Oppo Müzik",
    "desc": "Oppo müzik çalar.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo music player.",
+   "name_en": "Oppo Music"
   },
   "com.heytap.browser": {
    "name": "HeyTap Tarayıcı",
    "desc": "Oppo/Realme tarayıcısı. Başka tarayıcın yoksa kaldırma.",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo/Realme browser. Do not remove if you have no other browser.",
+   "name_en": "HeyTap Browser"
   },
   "com.heytap.market": {
    "name": "HeyTap App Market",
    "desc": "Oppo uygulama mağazası.",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo app store."
   },
   "com.oppo.market": {
    "name": "Oppo App Market",
    "desc": "Oppo uygulama mağazası (eski paket adı).",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo app store (old package name)."
   },
   "com.heytap.cloud": {
    "name": "HeyTap Cloud",
    "desc": "Oppo bulut senkronizasyonu; kullanıyorsan kaldırma.",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo cloud sync; do not remove if you use it."
   },
   "com.heytap.themestore": {
    "name": "Tema Mağazası",
    "desc": "Tema ve duvar kâğıdı mağazası.",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Theme and wallpaper store.",
+   "name_en": "Theme Store"
   },
   "com.heytap.openid": {
    "name": "HeyTap OpenID",
    "desc": "Cihaz/reklam kimliği; kaldırınca bulut işlevleri bozulabilir.",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Device/advertising ID; removing it may break cloud features."
   },
   "com.heytap.habit.analysis": {
    "name": "Alışkanlık Analizi",
    "desc": "HeyTap cihazlarından alışkanlık verisi izleyen servis.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Service that tracks habit data on HeyTap devices.",
+   "name_en": "Habit Analysis"
   },
   "com.opos.ads": {
    "name": "OPOS Reklam",
    "desc": "Reklam tıklama izleme servisi.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Ad click tracking service.",
+   "name_en": "OPOS Ads"
   },
   "com.heytap.pictorial": {
    "name": "Kilit Ekranı Dergisi",
    "desc": "Kilit ekranında dönen görseller (reklam içerebilir).",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Rotating lock screen images (may contain ads).",
+   "name_en": "Lock Screen Magazine"
   },
   "com.oppo.quicksearchbox": {
    "name": "Hızlı Arama",
    "desc": "Yukarıdan aşağı kaydırınca açılan arama kutusu.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Search box that opens when you swipe down.",
+   "name_en": "Quick Search"
   },
   "com.coloros.smartsidebar": {
    "name": "Akıllı Kenar Çubuğu",
    "desc": "Kenar panel kısayolları.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Side panel shortcuts.",
+   "name_en": "Smart Sidebar"
   },
   "com.coloros.video": {
    "name": "Video",
    "desc": "Oppo video oynatıcı.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Oppo video player.",
+   "name_en": "Video"
   },
   "com.coloros.gamespaceui": {
    "name": "Game Space",
    "desc": "Oyun performans aracı; birçok izne sahiptir.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Game performance tool; has many permissions."
   },
   "com.nearme.gamecenter": {
    "name": "Game Center",
    "desc": "Oyun forumu/haber uygulaması; izleyici içerir.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Game forum/news app; contains trackers."
   },
   "com.realme.link": {
    "name": "Realme Link",
    "desc": "Realme IoT cihazları için eşlik uygulaması.",
    "risk": "safe",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Companion app for Realme IoT devices."
   },
   "com.coloros.healthservice": {
    "name": "Sağlık Servisi",
    "desc": "Sağlık/adım verisi servisi.",
    "risk": "caution",
-   "brand": "oppo"
+   "brand": "oppo",
+   "desc_en": "Health/step data service.",
+   "name_en": "Health Service"
   },
   "com.facebook.katana": {
    "name": "Facebook",
    "desc": "Facebook uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Facebook app."
   },
   "com.facebook.system": {
    "name": "Facebook App Installer",
    "desc": "Facebook kurmaya teşvik eden boş kabuk uygulama.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Empty shell app that nudges you to install Facebook."
   },
   "com.facebook.appmanager": {
    "name": "Facebook App Manager",
    "desc": "Facebook uygulamalarının güncellemelerini yönetir.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Manages updates of Facebook apps."
   },
   "com.facebook.services": {
    "name": "Facebook Services",
    "desc": "Facebook hizmetlerini arka planda yöneten servis.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Service that manages Facebook features in the background."
   },
   "com.facebook.orca": {
    "name": "Messenger",
    "desc": "Facebook Messenger.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Facebook Messenger."
   },
   "com.netflix.mediaclient": {
    "name": "Netflix",
    "desc": "Netflix uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Netflix app."
   },
   "com.netflix.partner.activation": {
    "name": "Netflix Aktivasyon",
    "desc": "Ön yüklü Netflix aktivasyon servisi.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Preinstalled Netflix activation service.",
+   "name_en": "Netflix Activation"
   },
   "com.amazon.mShop.android.shopping": {
    "name": "Amazon Alışveriş",
    "desc": "Amazon alışveriş uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Amazon shopping app.",
+   "name_en": "Amazon Shopping"
   },
   "com.spotify.music": {
    "name": "Spotify",
    "desc": "Spotify müzik uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Spotify music app."
   },
   "com.linkedin.android": {
    "name": "LinkedIn",
    "desc": "LinkedIn uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "LinkedIn app."
   },
   "com.microsoft.skydrive": {
    "name": "OneDrive",
    "desc": "Microsoft bulut depolama.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Microsoft cloud storage."
   },
   "com.microsoft.office.officehubrow": {
    "name": "Microsoft 365 (Office)",
    "desc": "Office uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Office app."
   },
   "com.microsoft.office.outlook": {
    "name": "Outlook",
    "desc": "Microsoft e-posta uygulaması.",
    "risk": "safe",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Microsoft email app."
   },
   "com.touchtype.swiftkey": {
    "name": "SwiftKey",
    "desc": "Klavye. Varsayılan klavyen buysa kaldırma.",
    "risk": "caution",
-   "brand": "thirdparty"
+   "brand": "thirdparty",
+   "desc_en": "Keyboard. Do not remove if it is your default keyboard."
   },
   "com.google.android.apps.tachyon": {
    "name": "Google Meet (Duo)",
    "desc": "Görüntülü arama uygulaması.",
    "risk": "safe",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Video calling app."
   },
   "com.google.android.videos": {
    "name": "Google TV (Play Filmler)",
    "desc": "Film/dizi uygulaması.",
    "risk": "safe",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Movies/TV app."
   },
   "com.google.android.apps.youtube.music": {
    "name": "YouTube Music",
    "desc": "Müzik uygulaması.",
    "risk": "safe",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Music app."
   },
   "com.google.android.youtube": {
    "name": "YouTube",
    "desc": "YouTube uygulaması.",
    "risk": "safe",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "YouTube app."
   },
   "com.google.android.apps.docs": {
    "name": "Google Drive",
    "desc": "Bulut depolama uygulaması.",
    "risk": "safe",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Cloud storage app."
   },
   "com.google.android.apps.photos": {
    "name": "Google Fotoğraflar",
    "desc": "Fotoğraf yedekleme ve galeri uygulaması.",
    "risk": "caution",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Photo backup and gallery app.",
+   "name_en": "Google Photos"
   },
   "com.google.android.googlequicksearchbox": {
    "name": "Google Uygulaması",
    "desc": "Google arama ve Asistan; bazı cihazlarda ana ekran araması buna bağlı.",
    "risk": "caution",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Google search and Assistant; on some devices home screen search depends on it.",
+   "name_en": "Google App"
   },
   "com.android.vending": {
    "name": "Google Play Store",
    "desc": "Uygulama mağazası. Kaldırırsan uygulama kuramaz/güncelleyemezsin.",
    "risk": "critical",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "App store. If removed you cannot install or update apps."
   },
   "com.google.android.gms": {
    "name": "Google Play Hizmetleri",
    "desc": "Birçok uygulamanın temel bağımlılığı. Kaldırma.",
    "risk": "critical",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Core dependency of many apps. Do not remove.",
+   "name_en": "Google Play Services"
   },
   "com.google.android.gsf": {
    "name": "Google Servis Çerçevesi",
    "desc": "Google servislerinin temeli. Kaldırma.",
    "risk": "critical",
-   "brand": "google"
+   "brand": "google",
+   "desc_en": "Foundation of Google services. Do not remove.",
+   "name_en": "Google Services Framework"
   }
  },
  "profiles": {
@@ -525,7 +641,8 @@
     "com.samsung.android.kidsinstaller",
     "com.samsung.android.app.watchmanagerstub",
     "com.samsung.android.mateagent"
-   ]
+   ],
+   "name_en": "Samsung (One UI)"
   },
   "Xiaomi (MIUI / HyperOS)": {
    "brand": "xiaomi",
@@ -543,7 +660,8 @@
     "com.xiaomi.glgm",
     "com.miui.cleaner",
     "com.xiaomi.gamecenter.sdk.service"
-   ]
+   ],
+   "name_en": "Xiaomi (MIUI / HyperOS)"
   },
   "Oppo / Realme / OnePlus (ColorOS)": {
    "brand": "oppo",
@@ -556,7 +674,8 @@
     "com.coloros.gamespaceui",
     "com.nearme.gamecenter",
     "com.realme.link"
-   ]
+   ],
+   "name_en": "Oppo / Realme / OnePlus (ColorOS)"
   },
   "Üçüncü taraf ön yüklü uygulamalar (hepsi)": {
    "brand": "",
@@ -574,7 +693,8 @@
     "com.microsoft.skydrive",
     "com.microsoft.office.officehubrow",
     "com.microsoft.office.outlook"
-   ]
+   ],
+   "name_en": "Preinstalled third-party apps (all)"
   }
  }
 }
